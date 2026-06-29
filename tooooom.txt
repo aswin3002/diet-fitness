@@ -1,0 +1,10 @@
+sudo 
+wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.52/bin/apache-tomcat-10.1.52.tar.gz
+tar xvzf apache-tomcat-10.1.52.tar.gz
+cd apache-tomcat-10.1.52/
+ls
+cd bin
+ls-8080
+yum install java -y
+./catalina.sh start
+security-security group -inbound

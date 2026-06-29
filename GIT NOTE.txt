@@ -1,0 +1,27 @@
+git remote add path (any name) link of the repository
+git remote
+git remote -v
+git push -u path main
+git fetch origin
+git pull origin main (change inde mathrame pull ahkkullu)
+      
+git clone:
+ it will copy an entire remote repository to your local machine completely
+usually it will use on the starting of the project 
+-it dwds the repository and creates the copy of files on local machine
+
+git fetch:
+
+-it will check for the updations in remote repository 
+-it dwds the new changes from remote repository but it won't change local files
+-only checking the updations not merging 
+-it is safe because changes can be monitor before updating 
+
+git pull:
+
+- it updates the changes in remote repository and update the code locally
+-it performs git fetch + git merge
+
+fork:
+
+-git il fork ennathu oru repository ude copy nammmade accountil create cheyyunnath

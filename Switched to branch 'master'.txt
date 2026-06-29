@@ -1,0 +1,187 @@
+Switched to branch 'master'
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/AGNES BIJU/Desktop/git/.git/
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (master)
+$ nano index.html
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.php
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    index.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (master)
+$ git add .
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (master)
+$ git commit -m "first commit yellow to green"
+[master 64e3750] first commit yellow to green
+ 2 files changed, 19 insertions(+), 4 deletions(-)
+ create mode 100644 index.html
+ delete mode 100644 index.php
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (master)
+$ git log
+commit 64e3750cbee5e437b715ff9a49e72d4ca12389bc (HEAD -> master)
+Author: aswin <r34aswin@gmail.com>
+Date:   Tue Apr 21 16:46:08 2026 +0530
+
+    first commit yellow to green
+
+commit f5c15c0b6cdc0e715bb869a58906b1b3cfe63306
+Author: aswin <r34aswin@gmail.com>
+Date:   Tue Mar 10 16:34:04 2026 +0530
+
+    this is the second commit
+
+commit b3204eefc4d4f733daec3b57e813d8716fa5a221
+Author: aswin <r34aswin@gmail.com>
+Date:   Tue Mar 10 16:32:20 2026 +0530
+
+    walter white.
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (master)
+$ git branch puthiyabranch
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (master)
+$ git chechout puthiyabranch
+git: 'chechout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (master)
+$ git checkout puthiyabranch
+Switched to branch 'puthiyabranch'
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (puthiyabranch)
+$ git init
+Reinitialized existing Git repository in C:/Users/AGNES BIJU/Desktop/git/.git/
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (puthiyabranch)
+$ nano index.html
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (puthiyabranch)
+$ git status
+On branch puthiyabranch
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (puthiyabranch)
+$ git add .
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (puthiyabranch)
+$ git commit -m "1st branch master green to rose"
+[puthiyabranch 4716236] 1st branch master green to rose
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (puthiyabranch)
+$ git log
+commit 4716236de858ba2439f0a7fb55edf68c03e7ecce (HEAD -> puthiyabranch)
+Author: aswin <r34aswin@gmail.com>
+Date:   Tue Apr 21 16:50:26 2026 +0530
+
+    1st branch master green to rose
+
+commit 64e3750cbee5e437b715ff9a49e72d4ca12389bc (master)
+Author: aswin <r34aswin@gmail.com>
+Date:   Tue Apr 21 16:46:08 2026 +0530
+
+    first commit yellow to green
+
+commit f5c15c0b6cdc0e715bb869a58906b1b3cfe63306
+Author: aswin <r34aswin@gmail.com>
+Date:   Tue Mar 10 16:34:04 2026 +0530
+
+    this is the second commit
+
+commit b3204eefc4d4f733daec3b57e813d8716fa5a221
+Author: aswin <r34aswin@gmail.com>
+Date:   Tue Mar 10 16:32:20 2026 +0530
+
+    walter white.
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (puthiyabranch)
+$ nano index.html
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (puthiyabranch)
+$ git status
+On branch puthiyabranch
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (puthiyabranch)
+$ git add .
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (puthiyabranch)
+$ git commit -m "pink"
+[puthiyabranch d94f2d4] pink
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (puthiyabranch)
+$ git log
+commit d94f2d4f1dfbb085953581b9c353cffa9f541429 (HEAD -> puthiyabranch)
+Author: aswin <r34aswin@gmail.com>
+Date:   Tue Apr 21 16:52:35 2026 +0530
+
+    pink
+
+commit 4716236de858ba2439f0a7fb55edf68c03e7ecce
+Author: aswin <r34aswin@gmail.com>
+Date:   Tue Apr 21 16:50:26 2026 +0530
+
+    1st branch master green to rose
+
+commit 64e3750cbee5e437b715ff9a49e72d4ca12389bc (master)
+Author: aswin <r34aswin@gmail.com>
+Date:   Tue Apr 21 16:46:08 2026 +0530
+
+    first commit yellow to green
+
+commit f5c15c0b6cdc0e715bb869a58906b1b3cfe63306
+Author: aswin <r34aswin@gmail.com>
+Date:   Tue Mar 10 16:34:04 2026 +0530
+
+    this is the second commit
+
+commit b3204eefc4d4f733daec3b57e813d8716fa5a221
+Author: aswin <r34aswin@gmail.com>
+Date:   Tue Mar 10 16:32:20 2026 +0530
+
+    walter white.
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (puthiyabranch)
+$ git switch master
+Switched to branch 'master'
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (master)
+$ git merge puthiyabranch
+Updating 64e3750..d94f2d4
+Fast-forward
+ index.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (master)
+$

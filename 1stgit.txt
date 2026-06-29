@@ -1,0 +1,91 @@
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git
+$ ls -a
+./  ../  index.php
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git
+$ git init
+Initialized empty Git repository in C:/Users/AGNES BIJU/Desktop/git/.git/
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (master)
+$ /ls -a
+bash: /ls: No such file or directory
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.php
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (master)
+$ git add .
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (master)
+$ git commit -m "walter white" .
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'AGNES BIJU@ASWIN.(none)')
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (master)
+$ git commit -m "walter white".
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'AGNES BIJU@ASWIN.(none)')
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (master)
+$ get status
+bash: get: command not found
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (master)
+$ git conf --global user.email "r34aswin@gmail.com"
+git: 'conf' is not a git command. See 'git --help'.
+
+The most similar command is
+        config
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (master)
+$ git config --global user.email "r34aswin@gmail.com"
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (master)
+$ git config --global user.name "aswin"
+
+AGNES BIJU@ASWIN MINGW64 ~/Desktop/git (master)
+$ git commit -m "walter white".
+[master (root-commit) b3204ee] walter white.
+ 1 file changed, 4 insertions(+)
+ create mode 100644 index.php
+
